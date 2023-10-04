@@ -1,0 +1,16 @@
+instalação PHPUnit
+composer require --dev phpunit/phpunit
+
+rodar testes comando no terminal
+roda todos: 
+    vendor/bin/phpunit tests --colors
+
+roda especifico:
+    vendor/bin/phpunit tests --filter=CartTest::nome do teste --colors
+    vendor/bin/phpunit tests --filter=nome do teste --colors
+
+rodar xml
+    vendor/bin/phpunit --testsuite=tests
+
+atualizar o arquivo autoload.php
+    composer dump-autoload
