@@ -14,3 +14,9 @@ rodar xml
 
 atualizar o arquivo autoload.php
     composer dump-autoload
+
+criar arquivo de test no laravel
+    php artisan make:test CustomerTest
+
+codigo de depuração
+    dd()
